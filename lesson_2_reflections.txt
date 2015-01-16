@@ -1,4 +1,6 @@
 What happens when you initialize a repository? Why do you need to do it?
 
-A .git file is created (containing ??) but no git repository commit is made. I guess this initialises the structure required to create git commits in the new repository.
-
+	A .git file is created (containing ??) but no git repository commit is made. I guess this initialises the structure required to create git commits in the new repository.
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+	It offers a way to select which files in the working directory will be a part of the commit into the repository. So it represents a sub-set of the files in the working directory.
+	
