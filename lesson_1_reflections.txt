@@ -1,0 +1,33 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    Only the lines where there are differences are highlighted, enabling the user to find the differences much more efficiently than checking potentially long files line-by-line.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    The changes between ANY 2 versions of the file can be easily seen. This will help in finding bugs.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    Auto commits may not capture a complete logical function. The resulting code may not compile. It does ensure that work is not lost though.
+    Manual commits can be controlled by the user and can therefore be done at a suitable point where the code is able to be compiled. the downside is that the user may forget to save at an appopriate point and lose work or that the differences between manually saved versions may be too large or too small.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    This is because the files in Git are strongly coupled (in general) and the documents stored in apps like Google docs are generally not inter-related.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    Git log provides a complete history of all version changes in the repository. This can be used to find the change(s) of interest. git diff can then be used to highlight the differences introduced between 2 versions.
+
+How might using version control make you more confident to make changes that
+could break something?
+You can have complete confidence that you can always roll back to a previous good version of your code should something go wrong.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    Fill in your answer here
