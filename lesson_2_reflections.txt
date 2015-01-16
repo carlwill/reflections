@@ -1,0 +1,4 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+A .git file is created (containing ??) but no git repository commit is made. I guess this initialises the structure required to create git commits in the new repository.
+
